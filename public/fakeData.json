@@ -1,0 +1,122 @@
+[
+  {
+    "playerId": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "image": "https://c.ndtvimg.com/2025-05/lrqqt5ng_virat-kohli-announces-retirement-from-test-cricket_625x300_12_May_25.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=738",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm medium",
+    "biddingPrice": 1500000
+  },
+  {
+    "playerId": 2,
+    "name": "Ben Stokes",
+    "country": "England",
+    "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_960,q_50/lsci/db/PICTURES/CMS/299200/299220.6.jpg",
+    "role": "All-rounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Right-arm fast-medium",
+    "biddingPrice": 1300000
+  },
+  {
+    "playerId": 3,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "image": "https://en.dailypakistan.com.pk/wp-content/uploads/2022/12/profile-babar-azam-1669979464-7614.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": 1200000
+  },
+  {
+    "playerId": 4,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_sA6zuB3ToDO0EsxukC-jGbRXyAHloIK2ye8YmtufnebA3lo_vh-FFNWY4eac4ICWUYzmKzRA97-yzZyq35EIgg",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm legbreak googly",
+    "biddingPrice": 1100000
+  },
+  {
+    "playerId": 5,
+    "name": "Glenn Maxwell",
+    "country": "Australia",
+    "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_960,q_50/lsci/db/PICTURES/CMS/372300/372307.6.jpg",
+    "role": "All-rounder",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": 1250000
+  },
+  {
+    "playerId": 6,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_800,q_50/lsci/db/PICTURES/CMS/401500/401514.jpg",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm fast",
+    "biddingPrice": 1450000
+  },
+  {
+    "playerId": 7,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "image": "https://www.middlesexccc.com/media/get/KANE%20WILLIAMSON.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": 1150000
+  },
+  {
+    "playerId": 8,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQGgTdtRwUIAphPL8CZuxBk-qB9ExR2xasuqXZkc3amSmrh-o3ThkiIlWtWPSJVl1ehDvN8_nxDOZj60kcW4ba9PYlaMdXU4nfr-bVN6gs",
+    "role": "All-rounder",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Left-arm orthodox",
+    "biddingPrice": 1000000
+  },
+  {
+    "playerId": 9,
+    "name": "Mohammad Rizwan",
+    "country": "Pakistan",
+    "image": "https://greenteam1992.com/wp-content/uploads/2022/02/Riz-Inner-images-1024x576.webp",
+    "role": "Wicket-keeper",
+    "battingType": "Right-hand bat",
+    "bowlingType": "N/A",
+    "biddingPrice": 950000
+  },
+  {
+    "playerId": 10,
+    "name": "David Warner",
+    "country": "Australia",
+    "image": "https://www.thestatesman.com/wp-content/uploads/2020/01/000_1NP2U7.jpg",
+    "role": "Batsman",
+    "battingType": "Left-hand bat",
+    "bowlingType": "Right-arm legbreak",
+    "biddingPrice": 1050000
+  },
+  {
+    "playerId": 11,
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "image": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1DHvkv.img?w=768&h=480&m=6&x=407&y=137&s=109&d=109",
+    "role": "Bowler",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Left-arm fast-medium",
+    "biddingPrice": 980000
+  },
+  {
+    "playerId": 12,
+    "name": "Rohit Sharma",
+    "country": "India",
+    "image": "https://static.independent.co.uk/2023/10/12/09/SEI175570058%20%281%29.jpg",
+    "role": "Batsman",
+    "battingType": "Right-hand bat",
+    "bowlingType": "Right-arm offbreak",
+    "biddingPrice": 1400000
+  }
+]
