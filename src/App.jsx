@@ -1,7 +1,11 @@
+import Navbar from "./components/Navbar/Navbar";
+
 function App() {
   return (
     <>
-      <h1>Vite + React</h1>
+      <div className="w-11/12 mx-auto">
+        <Navbar />
+      </div>
     </>
   );
 }
