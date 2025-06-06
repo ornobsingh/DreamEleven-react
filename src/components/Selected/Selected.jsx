@@ -44,7 +44,7 @@ export default function Selected({
       ))}
       <button
         onClick={() => handleIsActive("available")}
-        className="btn bg-[#E7FE29] hover:bg-[#fbfe9e] duration-300 ease-in-out"
+        className="btn mt-5 bg-[#E7FE29] hover:bg-[#fbfe9e] duration-300 ease-in-out"
       >
         Add More Player
       </button>

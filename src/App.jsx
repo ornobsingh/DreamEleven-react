@@ -69,9 +69,9 @@ function App() {
           handleIsActive={handleIsActive}
           isActive={isActive}
         />
-        <NewsletterSubscribe />
-        <Footer />
       </div>
+      <NewsletterSubscribe />
+      <Footer />
     </>
   );
 }

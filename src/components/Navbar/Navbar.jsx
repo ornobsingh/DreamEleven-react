@@ -3,8 +3,8 @@ import coin from "../../assets/dollar.png";
 
 export default function Navbar({ increaseBalance }) {
   return (
-    <>
-      <div className="navbar bg-base-100 mb-4">
+    <div className="sticky top-0 z-10">
+      <div className="navbar bg-white/30 backdrop-blur-lg rounded-b-md mb-4">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -47,7 +47,7 @@ export default function Navbar({ increaseBalance }) {
 
         <div className="navbar-end flex md:gap-4">
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1 flex md:gap-4 text-gray-600 ">
+            <ul className="menu menu-horizontal px-1 flex md:gap-4 text-neutral-900 ">
               <li>
                 <a>Home</a>
               </li>
@@ -68,6 +68,6 @@ export default function Navbar({ increaseBalance }) {
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 }

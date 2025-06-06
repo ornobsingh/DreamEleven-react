@@ -2,8 +2,6 @@ export default function NewsletterSubscribe() {
   return (
     <>
       <div className="bg-[#0b0d19] pt-20 ">
-        {" "}
-        {/* <-- Extra bottom space */}
         <div className="max-w-4xl mx-auto -mt-32 bg-gradient-to-r from-blue-100 via-white to-orange-100 rounded-lg shadow-xl p-10 text-center">
           <h2 className="text-2xl font-semibold text-gray-900 mb-2">
             Subscribe to our Newsletter
