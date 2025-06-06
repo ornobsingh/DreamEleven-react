@@ -2,7 +2,7 @@
 import heroImg from "../../assets/banner-main.png";
 import "./Hero.css";
 
-export default function Hero() {
+export default function Hero({ handleAddBalance }) {
   return (
     <>
       <div className="hero bg-black rounded-2xl">
@@ -17,6 +17,7 @@ export default function Hero() {
             </p>
 
             <button
+              onClick={() => handleAddBalance()}
               type="submit"
               className="flex justify-center gap-2 items-center mx-auto shadow-xl text-md bg-[#E7FE29] hover:bg-[#e9fe29d7] duration-300 ease-in-out backdrop-blur-md lg:font-semibold isolation-auto before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-emerald-500  before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10 px-4 py-2 overflow-hidden border-2 rounded-full group cursor-pointer"
             >

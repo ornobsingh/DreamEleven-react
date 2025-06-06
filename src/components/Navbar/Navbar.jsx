@@ -1,7 +1,7 @@
 import logo from "../../assets/logo.png";
-import coin  from "../../assets/dollar.png";
+import coin from "../../assets/dollar.png";
 
-export default function Navbar() {
+export default function Navbar({ increaseBalance }) {
   return (
     <>
       <div className="navbar bg-base-100 mb-4">
@@ -29,13 +29,16 @@ export default function Navbar() {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Item 1</a>
+                <a>Home</a>
               </li>
               <li>
-                <a>Parent</a>
+                <a>Fixture</a>
               </li>
               <li>
-                <a>Item 3</a>
+                <a>Teams</a>
+              </li>
+              <li>
+                <a>Schedules</a>
               </li>
             </ul>
           </div>
@@ -49,7 +52,7 @@ export default function Navbar() {
                 <a>Home</a>
               </li>
               <li>
-                <a href="">Fixture</a>
+                <a>Fixture</a>
               </li>
               <li>
                 <a>Teams</a>
@@ -59,8 +62,8 @@ export default function Navbar() {
               </li>
             </ul>
           </div>
-          <button className="btn flex items-center px-5 bg-transparent text-xs rounded-lg">
-            0 Coin
+          <button className="btn flex items-center px-5 text-xs rounded-lg bg-[#fbfe9e]">
+            {increaseBalance} Coin
             <img className="w-5" src={coin} alt="coin img" />
           </button>
         </div>
