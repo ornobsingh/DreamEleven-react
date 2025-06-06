@@ -4,7 +4,7 @@ import "./Hero.css";
 
 export default function Hero() {
   return (
-    <div>
+    <>
       <div className="hero bg-black rounded-2xl">
         <div className="hero-content  ">
           <div className="max-w-md flex flex-col items-center justify-center py-8 text-center ">
@@ -35,6 +35,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

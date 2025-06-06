@@ -3,7 +3,7 @@ import coin  from "../../assets/dollar.png";
 
 export default function Navbar() {
   return (
-    <div className="">
+    <>
       <div className="navbar bg-base-100 mb-4">
         <div className="navbar-start">
           <div className="dropdown">
@@ -65,6 +65,6 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-    </div>
+    </>
   );
 }
